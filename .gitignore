@@ -1,3 +1,5 @@
 .idea
 .git
 .angular
+.vscode
+node_modules

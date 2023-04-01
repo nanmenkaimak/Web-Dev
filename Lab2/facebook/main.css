@@ -69,7 +69,6 @@ footer{
 .col-form .form-container .button-login {
     background-color: #1877f2;
     border: none;
-    border-radius: 6px;
     font-size: 20px;
     padding: 0 16px;
     color: #ffffff;
@@ -79,12 +78,12 @@ footer{
     background-color: #42b72a;
     border: none;
     border-radius: 6px;
+    width: 100%;
     font-size: 17px;
     line-height: 48px;
     padding: 0 16px;
     color: #ffffff;
     font-weight: 700;
-    margin-top: 20px;
 }
 .col-form .form-container a {
     display: block;
@@ -143,4 +142,9 @@ footer ol li {
     padding-right: 13px;
     font-size: 12px;
     color: #385898;
+}
+
+.input1 {
+    display: flex;
+    grid-gap: 10px;
 }

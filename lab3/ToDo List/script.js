@@ -10,9 +10,11 @@ function addTodo() {
   checkbox.addEventListener("click", toggleDone);
   const label = document.createElement("label");
   label.textContent = todoInput.value;
-  li.appendChild(checkbox);
-  li.appendChild(label);
-  todoList.appendChild(li);
+  if (todoInput.value != "") {
+    li.appendChild(checkbox);
+    li.appendChild(label);
+    todoList.appendChild(li);
+  }
   todoInput.value = "";
 }
 
