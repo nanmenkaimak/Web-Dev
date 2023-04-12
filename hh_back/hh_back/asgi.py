@@ -1,5 +1,5 @@
 """
-ASGI config for lab9 project.
+ASGI config for hh_back project.
 
 It exposes the ASGI callable as a module-level variable named ``application``.
 
@@ -11,6 +11,6 @@ import os
 
 from django.core.asgi import get_asgi_application
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'lab9.settings')
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'hh_back.settings')
 
 application = get_asgi_application()
